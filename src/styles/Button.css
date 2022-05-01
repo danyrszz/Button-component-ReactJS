@@ -1,0 +1,97 @@
+.custom-button{
+  font-size: 14px;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  transition: 0.2s ease-in-out;
+}
+.size-sm{ padding: 8px 14px; }
+.size-md{ padding: 10px 18px;}
+.size-lg{ padding: 13px 24px;}
+
+.custom-button:hover{
+  cursor: pointer;
+}
+.indicator{
+  display: flex;
+  align-items: center;
+}
+
+
+/* class variants */
+/* button colors */
+.color-default{
+  background-color: #E0E0E0;
+}
+.color-primary{
+  background: #2962FF;
+  color: white;
+}
+.color-secondary{
+  background: #455A64;
+  color: white;
+}
+.color-danger{
+  background: #D32F2F;
+  color: white;
+}
+/* button colors hover */
+.color-default:hover, .color-default:focus {
+  background: #AEAEAE;
+}
+.color-primary:hover, .color-primary:focus {
+  background: #0039CB;
+}
+.color-secondary:hover, .color-secondary:focus {
+  background: #1C313A;
+}
+.color-danger:hover, .color-danger:focus {
+  background: #9A0007;
+}
+
+/* button style */
+.default{
+  box-shadow: 0px 2px 3px 0px #33333333;
+}
+.outline{
+  background-color: white;
+  border: 1px solid #3D5AFE;
+  color: #3D5AFE;
+}
+.outline:hover, .outline:focus{
+  background: #2962FF1A;
+}
+.text{
+  background-color: rgba(0,0,0,0);
+  border:none;
+  color: #3D5AFE;
+}
+.text:hover, .text:focus{
+  background: #2962FF1A;
+}
+
+
+/* behaviour */
+.disabled{
+  pointer-events: none;
+  touch-action: none;
+  background-color: #E0E0E0;
+  color: #9E9E9E;
+}
+.nobg{
+  background-color: rgba(0,0,0,0);
+}
+
+/* icons */
+.indicator-icon{
+  font-size: 1em;
+  padding: 0 2px;
+}
+.indicator-text{
+  padding: 0 2px;
+}
+
+/* conditions */
+.noshadow{
+  box-shadow: none;
+}
